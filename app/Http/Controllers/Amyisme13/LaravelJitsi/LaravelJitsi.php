@@ -1,6 +1,6 @@
 <?php
 
-namespace Amyisme13\LaravelJitsi;
+namespace App\Http\Controllers\Amyisme13\LaravelJitsi;
 
 use Firebase\JWT\JWT;
 use Illuminate\Support\Str;

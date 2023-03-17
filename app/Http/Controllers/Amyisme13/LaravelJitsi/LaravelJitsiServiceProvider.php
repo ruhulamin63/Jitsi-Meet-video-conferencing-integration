@@ -1,8 +1,8 @@
 <?php
 
-namespace Amyisme13\LaravelJitsi;
+namespace App\Http\Controllers\Amyisme13\LaravelJitsi;
 
-use Amyisme13\LaravelJitsi\Http\Controllers\ViewRoomController;
+use App\Http\Controllers\Amyisme13\LaravelJitsi\Http\Controllers\ViewRoomController;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelJitsiServiceProvider extends ServiceProvider

@@ -1,6 +1,6 @@
 <?php
 
-use Amyisme13\LaravelJitsi\Tests\User;
+use App\Tests\User;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 

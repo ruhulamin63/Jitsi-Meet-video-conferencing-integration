@@ -1,5 +1,7 @@
 <?php
 
+//use App\Http\Controllers\ViewRoomController;
+use App\Http\Controllers\Amyisme13\LaravelJitsi\Http\Controllers\ViewRoomController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::jitsi();
+
+Route::get('/jitsi/{room}' , [ViewRoomController::class, '__invoke']);
+

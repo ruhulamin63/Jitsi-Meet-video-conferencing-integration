@@ -7,7 +7,7 @@
         content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible"
         content="ie=edge">
-    <title>{{ $room }}</title>
+{{--    <title>{{ $room }}</title>--}}
     <style>
         body {
             margin: 0px;
@@ -25,6 +25,7 @@
     <div id="jitsi-container"></div>
 
     <script src="https://{{ config('laravel-jitsi.domain') }}/external_api.js"></script>
+{{--    <script src="{{ asset('js/external_api.js') }}"></script>--}}
     <script>
         const domain = "{{ config('laravel-jitsi.domain') }}"
         const options = {
@@ -34,8 +35,10 @@
             parentNode: document.querySelector('#jitsi-container'),
         };
 
+        alert(domain, options)
+
         @if (! is_null($jwt))
-        options.jwt = '{{ $jwt }}';
+            options.jwt = '{{ $jwt }}';
         @endif
 
         const api = new JitsiMeetExternalAPI(domain, options);

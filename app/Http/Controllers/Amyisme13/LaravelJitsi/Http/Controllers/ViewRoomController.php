@@ -1,8 +1,8 @@
 <?php
 
-namespace Amyisme13\LaravelJitsi\Http\Controllers;
+namespace App\Http\Controllers\Amyisme13\LaravelJitsi\Http\Controllers;
 
-use Amyisme13\LaravelJitsi\LaravelJitsiFacade as Jitsi;
+use App\Http\Controllers\Amyisme13\LaravelJitsi\LaravelJitsiFacade as Jitsi;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 

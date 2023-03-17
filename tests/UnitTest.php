@@ -1,9 +1,9 @@
 <?php
 
-namespace Amyisme13\LaravelJitsi\Tests;
+namespace App\Tests;
 
-use Amyisme13\LaravelJitsi\Http\Controllers\ViewRoomController;
-use Amyisme13\LaravelJitsi\LaravelJitsiFacade;
+use App\LaravelJitsiFacade;
+use App\Http\Controllers\ViewRoomController;
 use Firebase\JWT\JWT;
 
 class UnitTest extends TestCase

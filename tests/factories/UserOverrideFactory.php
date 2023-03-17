@@ -1,6 +1,6 @@
 <?php
 
-use Amyisme13\LaravelJitsi\Tests\UserOverride;
+use App\Tests\UserOverride;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
