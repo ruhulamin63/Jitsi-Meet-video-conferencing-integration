@@ -35,8 +35,6 @@
             parentNode: document.querySelector('#jitsi-container'),
         };
 
-        alert(domain, options)
-
         @if (! is_null($jwt))
             options.jwt = '{{ $jwt }}';
         @endif
