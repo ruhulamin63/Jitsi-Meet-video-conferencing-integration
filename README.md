@@ -22,7 +22,7 @@ A Laravel application demonstrating Jitsi Meet video conferencing integration us
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ruhulamin63/jitst-test.git
+git clone https://github.com/ruhulamin63/Jitsi-Meet-video-conferencing-integration.git
 cd jitst-test
 ```
 
